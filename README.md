@@ -10,9 +10,9 @@ one readable output.
 ### Parameters
 - `--language <languages>`: Specify the programming languages to include (e.g., js, py).
 - `--output <output_file>`: The name of the output file where the bundled code will be saved.
-- `--note [true|false]`: Include notes in the output (default is no).
-- `--sort [true|false]`: Sort the files before bundling (default is no).
-- `--remove-empty-lines [true|false]`: Remove empty lines from the output (default is no).
+- `--note [y|n]`: Include notes in the output (default is no).
+- `--sort [y|n]`: Sort the files before bundling (default is no).
+- `--remove-empty-lines [y|n]`: Remove empty lines from the output (default is no).
 - `--author <author_name>`: Specify the author's name to include in the output.
 ## Examples
 fib bundle --language js,py --output bundled.txt --note y --sort n --remove-empty-lines y --author "Sara Choen"
